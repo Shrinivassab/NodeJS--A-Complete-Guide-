@@ -19,7 +19,7 @@ const requestHandler = (req, res) => {
             body.push(chunk);
         });
 
-        // Non-Blocking -> Asyn concept
+        // Non-Blocking -> Async concept
         return req.on('end', () => {
             const parsedBody = Buffer.concat(body).toString();
             const message = parsedBody.split('=')[1];
