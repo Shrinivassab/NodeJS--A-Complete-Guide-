@@ -20,25 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dad23cd0-d06a-418e-b34a-fa69382e9c98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Shop_Project/controllers/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop_Project/views/admin/edit-product.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop_Project/views/admin/products.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop_Project/views/shop/cart.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop_Project/views/shop/checkout.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop_Project/views/shop/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop_Project/views/shop/orders.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop_Project/views/shop/product-detail.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shop_Project/data/cart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shop_Project/models/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shop_Project/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shop_Project/views/includes/add-to-cart.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/controllers/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/error.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/controllers/error.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/controllers/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/controllers/shop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shop_Project/data/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/data/products.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shop_Project/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/models/product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/public/css/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/public/css/forms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/public/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/public/css/product.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shop_Project/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/routes/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shop_Project/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/routes/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/views/add-product.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/admin/add-product.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/admin/add-product.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/admin/edit-product.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/admin/edit-product.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/admin/products.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/admin/products.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/includes/end.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/includes/end.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shop_Project/views/includes/navigation.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/includes/navigation.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/views/shop.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/shop/product-list.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/shop/cart.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/shop/cart.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/shop/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/shop/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/shop/orders.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/shop/orders.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/shop/product-detail.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/shop/product-detail.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/shop/product-list.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/shop/product-list.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +84,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/04-editing-and-deleting-products" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Shop_Project" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -87,15 +92,17 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\shop" />
-      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\admin" />
-      <recent name="D:\Coding Examples\NodeJS\Chap 1&amp;2" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Coding Examples\NodeJS\Shop_Project" />
       <recent name="D:\Coding Examples\NodeJS\Shop_Project\views" />
       <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\includes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\includes" />
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project" />
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\shop" />
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\admin" />
+      <recent name="D:\Coding Examples\NodeJS\Chap 1&amp;2" />
     </key>
   </component>
   <component name="RunManager">
@@ -139,7 +146,9 @@
       <workItem from="1606606211321" duration="594000" />
       <workItem from="1607640215023" duration="1188000" />
       <workItem from="1609714790699" duration="6286000" />
-      <workItem from="1609891520984" duration="4359000" />
+      <workItem from="1609891520984" duration="16377000" />
+      <workItem from="1610816029635" duration="1824000" />
+      <workItem from="1610906656228" duration="700000" />
     </task>
     <task id="LOCAL-00001" summary="chap3:&#10;-&gt; How web works.&#10;-&gt; Lifecycle and Event loop.&#10;-&gt; Asy code(Block/Non-Block i/o).&#10;-&gt; Req and Res (Parse data Buffer).&#10;-&gt; import and export (require keywords)">
       <created>1591472248959</created>
@@ -155,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596568958969</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Enhancing the APP">
+      <created>1610229525668</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610229525668</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,13 +192,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chap3:&#10;-&gt; How web works.&#10;-&gt; Lifecycle and Event loop.&#10;-&gt; Asy code(Block/Non-Block i/o).&#10;-&gt; Req and Res (Parse data Buffer).&#10;-&gt; import and export (require keywords)" />
     <MESSAGE value="Working with express.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working with express.js" />
+    <MESSAGE value="Enhancing the APP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhancing the APP" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1609891509641">
+    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1610229523729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609891509641" />
+    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610229523729" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1610888160905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610888160905" />
     <state width="949" height="275" key="GridCell.Tab.0.bottom" timestamp="1603288414591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -199,14 +220,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="949" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603288414591" />
+    <state x="552" y="234" key="Vcs.Push.Dialog.v2" timestamp="1610229528175">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610229528175" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604434727326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604434727326" />
-    <state x="668" y="237" width="583" height="566" key="find.popup" timestamp="1603201607305">
+    <state x="668" y="237" width="583" height="566" key="find.popup" timestamp="1610657515523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="237" width="583" height="566" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603201607305" />
+    <state x="668" y="237" width="583" height="566" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610657515523" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
