@@ -20,26 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dad23cd0-d06a-418e-b34a-fa69382e9c98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Shop_Project/controllers/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shop_Project/public/css/auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shop_Project/views/auth/login.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shop_Project/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/controllers/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/error.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/controllers/error.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/controllers/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/models/cart-item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/models/cart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/models/order-item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/models/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/models/order.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/models/product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/models/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shop_Project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shop_Project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/routes/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/routes/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/util/database.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/views/includes/add-to-cart.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/includes/add-to-cart.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/routes/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shop_Project/views/includes/navigation.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/includes/navigation.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/views/shop/cart.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/shop/cart.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/views/shop/orders.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/shop/orders.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +42,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -102,7 +94,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
+    <configuration name="Node-Project" type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
   </component>
@@ -205,6 +197,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="-- NOSQL &#10;-- Updating the product" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614467213156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614467213156" />
     <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1612883431843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -213,14 +209,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614204956322" />
+    <state width="952" height="274" key="GridCell.Tab.0.bottom" timestamp="1614467246086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="952" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614467246086" />
+    <state width="952" height="274" key="GridCell.Tab.0.center" timestamp="1614467246086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="952" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614467246086" />
+    <state width="952" height="274" key="GridCell.Tab.0.left" timestamp="1614467246086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="952" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614467246086" />
+    <state width="952" height="274" key="GridCell.Tab.0.right" timestamp="1614467246086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="952" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614467246086" />
     <state x="552" y="234" key="Vcs.Push.Dialog.v2" timestamp="1612884398540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612884398540" />
-    <state x="668" y="237" width="583" height="566" key="find.popup" timestamp="1614208784320">
+    <state x="668" y="237" width="583" height="596" key="find.popup" timestamp="1614468404503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="237" width="583" height="566" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614208784320" />
+    <state x="668" y="237" width="583" height="596" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614468404503" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612789720489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
