@@ -1,26 +1,72 @@
-// const http = require('http');
 const path = require('path');
 
 const express = require('express');
 const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
+const session = require('express-session');
+const MongoDBStore = require('connect-mongodb-session')(session);
+
+const errorController = require('./controllers/error');
+const User = require('./models/user');
+
+const MONGODB_URI = 'mongodb+srv://shrinivassab-node:h6DadFR1LMvt7Dqi@cluster0.uvxvg.mongodb.net/shop?retryWrites=true&w=majority'
+
 
 const app = express();
+const store = new MongoDBStore({
+    uri: MONGODB_URI,
+    collection: 'sessions'
+});
+
+app.set('view engine', 'ejs');
+app.set('views', 'views');
 
 const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
+const authRoutes = require('./routes/auth');
+// Registering
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(session({
+    secret: 'my secret',
+    resave: false,
+    saveUninitialized: false,
+    store: store
+}))
 
-app.use(bodyParser.urlencoded({extended: false}));
-
-app.use(express.static(path.join(__dirname, 'public')))
+app.use((req, res, next) => {
+    User.findById('5bab316ce0a7c75f783cb8a8')
+        .then(user => {
+            req.user = user;
+            next();
+        })
+        .catch(err => console.log(err));
+});
 
 app.use('/admin', adminRoutes);
 app.use(shopRoutes);
+app.use(authRoutes);
 
-app.use((req, res, next) => {
-    // res.status(404).send('<h1>Page Not Found</h1>')
-    res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
-});
+app.use(errorController.get404);
 
-// const server = http.createServer(app);
-
-app.listen(3000);
+mongoose
+    .connect(
+        MONGODB_URI
+    )
+    .then(result => {
+        User.findOne().then(user => {
+            if(!user) {
+                const user = new User({
+                    name: 'Shrinivass',
+                    email: 'shri@gmail.com',
+                    cart: {
+                        items: []
+                    }
+                });
+                user.save();
+            }
+        })
+        app.listen(3000)
+    }).catch(err => {
+        console.log(err);
+})

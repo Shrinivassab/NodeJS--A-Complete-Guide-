@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dad23cd0-d06a-418e-b34a-fa69382e9c98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chap_4/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop_Project/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop_Project/routes/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop_Project/routes/shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop_Project/views/add-product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop_Project/views/shop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shop_Project/controllers/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shop_Project/public/css/auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shop_Project/views/auth/login.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chap_3_Understanding_The_Basic/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chap_3_Understanding_The_Basic/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/controllers/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/error.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/controllers/error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/controllers/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/includes/navigation.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/includes/navigation.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +41,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
@@ -44,7 +72,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/12-removing-deleted-items-from-the-cart" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -52,11 +81,20 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project" />
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\includes" />
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\shop" />
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\admin" />
       <recent name="D:\Coding Examples\NodeJS\Chap 1&amp;2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project" />
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views" />
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\includes" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
+    <configuration name="Node-Project" type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
   </component>
@@ -80,7 +118,30 @@
       <workItem from="1593472937603" duration="1252000" />
       <workItem from="1594090297455" duration="615000" />
       <workItem from="1594177984049" duration="7892000" />
-      <workItem from="1594698877104" duration="1083000" />
+      <workItem from="1594698877104" duration="2013000" />
+      <workItem from="1595880264352" duration="3107000" />
+      <workItem from="1596077366081" duration="671000" />
+      <workItem from="1596509473989" duration="7091000" />
+      <workItem from="1597839801561" duration="1868000" />
+      <workItem from="1599771238695" duration="626000" />
+      <workItem from="1601517462351" duration="870000" />
+      <workItem from="1601767425169" duration="1875000" />
+      <workItem from="1603110149890" duration="10409000" />
+      <workItem from="1604434500122" duration="1812000" />
+      <workItem from="1604613922169" duration="593000" />
+      <workItem from="1604958241537" duration="425000" />
+      <workItem from="1605622022417" duration="620000" />
+      <workItem from="1606606211321" duration="594000" />
+      <workItem from="1607640215023" duration="1188000" />
+      <workItem from="1609714790699" duration="6286000" />
+      <workItem from="1609891520984" duration="16377000" />
+      <workItem from="1610816029635" duration="1824000" />
+      <workItem from="1610906656228" duration="700000" />
+      <workItem from="1611272615028" duration="594000" />
+      <workItem from="1611580062826" duration="10800000" />
+      <workItem from="1612578282087" duration="21657000" />
+      <workItem from="1613324038009" duration="5160000" />
+      <workItem from="1614204850313" duration="12630000" />
     </task>
     <task id="LOCAL-00001" summary="chap3:&#10;-&gt; How web works.&#10;-&gt; Lifecycle and Event loop.&#10;-&gt; Asy code(Block/Non-Block i/o).&#10;-&gt; Req and Res (Parse data Buffer).&#10;-&gt; import and export (require keywords)">
       <created>1591472248959</created>
@@ -89,21 +150,93 @@
       <option name="project" value="LOCAL" />
       <updated>1591472248959</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Working with express.js">
+      <created>1596568958969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596568958969</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Enhancing the APP">
+      <created>1610229525668</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610229525668</updated>
+    </task>
+    <task id="LOCAL-00004" summary="-- NOSQL &#10;-- Updating the product">
+      <created>1612883436486</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612883436486</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chap3:&#10;-&gt; How web works.&#10;-&gt; Lifecycle and Event loop.&#10;-&gt; Asy code(Block/Non-Block i/o).&#10;-&gt; Req and Res (Parse data Buffer).&#10;-&gt; import and export (require keywords)" />
-    <option name="LAST_COMMIT_MESSAGE" value="chap3:&#10;-&gt; How web works.&#10;-&gt; Lifecycle and Event loop.&#10;-&gt; Asy code(Block/Non-Block i/o).&#10;-&gt; Req and Res (Parse data Buffer).&#10;-&gt; import and export (require keywords)" />
+    <MESSAGE value="Working with express.js" />
+    <MESSAGE value="Enhancing the APP" />
+    <MESSAGE value="-- NOSQL &#10;-- Updating the product" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- NOSQL &#10;-- Updating the product" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="161" key="#Plugins" timestamp="1593472976362">
+    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614467213156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="161" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1593472976362" />
+    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614467213156" />
+    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1612883431843">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612883431843" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1614204956322">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614204956322" />
+    <state width="952" height="274" key="GridCell.Tab.0.bottom" timestamp="1614467246086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="952" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614467246086" />
+    <state width="952" height="274" key="GridCell.Tab.0.center" timestamp="1614467246086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="952" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614467246086" />
+    <state width="952" height="274" key="GridCell.Tab.0.left" timestamp="1614467246086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="952" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614467246086" />
+    <state width="952" height="274" key="GridCell.Tab.0.right" timestamp="1614467246086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="952" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614467246086" />
+    <state x="552" y="234" key="Vcs.Push.Dialog.v2" timestamp="1612884398540">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612884398540" />
+    <state x="668" y="237" width="583" height="596" key="find.popup" timestamp="1614468404503">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="237" width="583" height="596" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614468404503" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612789720489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612789720489" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
