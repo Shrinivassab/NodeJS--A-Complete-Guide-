@@ -20,24 +20,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dad23cd0-d06a-418e-b34a-fa69382e9c98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Shop_Project/views/auth/signup.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/controllers/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/controllers/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/error.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/controllers/error.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/controllers/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/models/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/models/order.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/models/product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/routes/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/views/includes/navigation.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/includes/navigation.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/views/shop/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/shop/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/views/shop/product-detail.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/shop/product-detail.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop_Project/views/shop/product-list.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop_Project/views/shop/product-list.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/controllers/shop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/data/cart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/data/products.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/models/order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/models/product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/models/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/public/css/auth.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/public/css/cart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/public/css/forms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/public/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/public/css/orders.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/public/css/product.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/public/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/routes/admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/routes/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/routes/shop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/util/path.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/404.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/admin/edit-product.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/admin/products.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/auth/login.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/auth/signup.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/includes/add-to-cart.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/includes/end.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/includes/head.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/includes/navigation.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/shop/cart.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/shop/checkout.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/shop/index.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/shop/orders.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/shop/product-detail.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop_Project/views/shop/product-list.ejs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +99,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editorconfig.notification" value="lf;" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/00-starting-setup" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -86,17 +108,17 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\auth" />
-      <recent name="D:\Coding Examples\NodeJS\Shop_Project" />
-      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\includes" />
-      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\shop" />
-      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\admin" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Coding Examples\NodeJS\Shop_Project" />
       <recent name="D:\Coding Examples\NodeJS\Shop_Project\views" />
       <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\includes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project" />
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\auth" />
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\includes" />
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\shop" />
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\admin" />
     </key>
   </component>
   <component name="RunManager">
@@ -150,6 +172,8 @@
       <workItem from="1614204850313" duration="12630000" />
       <workItem from="1617627727083" duration="2104000" />
       <workItem from="1617732175353" duration="5506000" />
+      <workItem from="1617893910310" duration="79000" />
+      <workItem from="1617894023337" duration="635000" />
     </task>
     <task id="LOCAL-00001" summary="chap3:&#10;-&gt; How web works.&#10;-&gt; Lifecycle and Event loop.&#10;-&gt; Asy code(Block/Non-Block i/o).&#10;-&gt; Req and Res (Parse data Buffer).&#10;-&gt; import and export (require keywords)">
       <created>1591472248959</created>
@@ -229,10 +253,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615491131732" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1617848345796">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1617893922357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617848345796" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617893922357" />
     <state width="936" height="338" key="GridCell.Tab.0.bottom" timestamp="1615552641802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
