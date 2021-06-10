@@ -20,26 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dad23cd0-d06a-418e-b34a-fa69382e9c98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middleware/is-auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/auth/new-password.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/auth/reset.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/edit-product.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/edit-product.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/products.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/products.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/auth/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/auth/login.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/auth/signup.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/auth/signup.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/includes/add-to-cart.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/add-to-cart.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/includes/end.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/end.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/includes/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/head.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/includes/navigation.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/navigation.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/shop/cart.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/cart.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/shop/orders.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/orders.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop/product-detail.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/product-detail.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop/product-list.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/product-list.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,25 +84,27 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editorconfig.notification" value="lf;" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/11-adding-additional-flash-messages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Coding Examples\NodeJS\Shop_Project" />
-      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views" />
-      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\includes" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding Examples\NodeJS" />
       <recent name="D:\Coding Examples\NodeJS\Shop_Project" />
       <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\auth" />
       <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\includes" />
       <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\shop" />
-      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding Examples\NodeJS" />
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project" />
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views" />
+      <recent name="D:\Coding Examples\NodeJS\Shop_Project\views\includes" />
     </key>
   </component>
   <component name="RunManager">
@@ -107,6 +112,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -156,6 +162,11 @@
       <workItem from="1617893910310" duration="79000" />
       <workItem from="1617894023337" duration="10118000" />
       <workItem from="1618318733368" duration="1601000" />
+      <workItem from="1618704529408" duration="1004000" />
+      <workItem from="1619536918682" duration="3893000" />
+      <workItem from="1621353179474" duration="3253000" />
+      <workItem from="1622820584556" duration="1076000" />
+      <workItem from="1623340779446" duration="247000" />
     </task>
     <task id="LOCAL-00001" summary="chap3:&#10;-&gt; How web works.&#10;-&gt; Lifecycle and Event loop.&#10;-&gt; Asy code(Block/Non-Block i/o).&#10;-&gt; Req and Res (Parse data Buffer).&#10;-&gt; import and export (require keywords)">
       <created>1591472248959</created>
@@ -210,7 +221,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -239,6 +250,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614467213156" />
+    <state x="1119" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1622820191290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1119" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622820191290" />
     <state x="585" y="0" key="CommitChangelistDialog2" timestamp="1617894931361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -247,22 +262,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618329751318" />
-    <state width="936" height="338" key="GridCell.Tab.0.bottom" timestamp="1615552641802">
+    <state width="936" height="272" key="GridCell.Tab.0.bottom" timestamp="1618630709075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615552641802" />
-    <state width="936" height="338" key="GridCell.Tab.0.center" timestamp="1615552641802">
+    <state width="936" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618630709075" />
+    <state width="936" height="272" key="GridCell.Tab.0.center" timestamp="1618630709074">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615552641802" />
-    <state width="936" height="338" key="GridCell.Tab.0.left" timestamp="1615552641802">
+    <state width="936" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618630709074" />
+    <state width="936" height="272" key="GridCell.Tab.0.left" timestamp="1618630709058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615552641802" />
-    <state width="936" height="338" key="GridCell.Tab.0.right" timestamp="1615552641802">
+    <state width="936" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618630709058" />
+    <state width="936" height="272" key="GridCell.Tab.0.right" timestamp="1618630709074">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615552641802" />
+    <state width="936" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618630709074" />
     <state width="936" height="338" key="GridCell.Tab.1.bottom" timestamp="1615552641802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -319,10 +334,6 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="668" y="237" width="583" height="596" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615552410823" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612789720489">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612789720489" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
