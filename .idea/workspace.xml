@@ -20,29 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dad23cd0-d06a-418e-b34a-fa69382e9c98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/auth/new-password.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/auth/reset.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/edit-product.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/edit-product.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/products.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/products.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/auth/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/auth/login.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/auth/signup.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/auth/signup.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/includes/add-to-cart.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/add-to-cart.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/includes/end.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/end.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/includes/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/head.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/includes/navigation.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/navigation.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/shop/cart.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/cart.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/shop/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/shop/orders.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/orders.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/shop/product-detail.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/product-detail.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/shop/product-list.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/product-list.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +145,7 @@
       <workItem from="1621353179474" duration="3253000" />
       <workItem from="1622820584556" duration="1076000" />
       <workItem from="1623340779446" duration="247000" />
+      <workItem from="1623423634815" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="chap3:&#10;-&gt; How web works.&#10;-&gt; Lifecycle and Event loop.&#10;-&gt; Asy code(Block/Non-Block i/o).&#10;-&gt; Req and Res (Parse data Buffer).&#10;-&gt; import and export (require keywords)">
       <created>1591472248959</created>
